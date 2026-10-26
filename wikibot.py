@@ -21,4 +21,4 @@ def get_summary(title):
     click.secho(". ".join(sentences[:2]) + ".", bg="white", fg="green")
 
 if __name__ == "__main__":
-    get_summary()
+    get_summary() # pylint: disable=no-value-for-parameter
