@@ -29,3 +29,8 @@ Change to codespace url once codespace becomes active again
 ### Invoke POST request
 
 run `bash invoke.sh`
+
+
+### AWS deployment link
+
+https://wi-05967f27e641431789748645ad39d448.ecs.us-east-1.on.aws/docs#/default/scrape_story_wiki_post
