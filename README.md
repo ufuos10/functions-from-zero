@@ -5,6 +5,7 @@
 
 ### To call Microservice
 
+```bash
 curl -X 'POST' \
   'http://127.0.0.1:8080/wiki' \
   -H 'accept: */*' \
@@ -12,7 +13,19 @@ curl -X 'POST' \
   -d '{
   "title": "Lebron James"
 }'
+```
 
 ```
 Change to codespace url once codespace becomes active again
 ```
+
+### Build container
+`docker build .`
+`docker image ls --all`
+
+### Run container
+`docker run -p 127.0.0.1:8080:8080 image_id_here`
+
+### Invoke POST request
+
+run `bash invoke.sh`
